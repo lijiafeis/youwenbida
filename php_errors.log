@@ -50,3 +50,46 @@
 [07-Dec-2016 13:09:39 PRC] PHP Parse error:  syntax error, unexpected ':' in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\b20434f0d586e5a20b6e0a890d75f07e.php on line 205
 [07-Dec-2016 13:09:47 PRC] PHP Parse error:  syntax error, unexpected ':' in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\b20434f0d586e5a20b6e0a890d75f07e.php on line 205
 [07-Dec-2016 13:33:45 PRC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Controller\QuestionController.class.php on line 26
+[07-Dec-2016 15:07:52 PRC] PHP Fatal error:  Call to a member function getAllRow() on boolean in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Controller\QuestionController.class.php on line 57
+[07-Dec-2016 15:12:09 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:12:11 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:12:12 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:14:57 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:19:23 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:21:25 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:21:35 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:21:38 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:22:24 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:22:26 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:23:48 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:23:50 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:24:48 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:26:41 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:27:59 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:31:00 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:31:01 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:31:03 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:31:04 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:31:05 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:33:48 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 15:43:13 PRC] PHP Parse error:  syntax error, unexpected 'default' (T_DEFAULT) in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\fd93d816414af0ade2156438a8d6b092.php on line 238
+[07-Dec-2016 15:44:06 PRC] PHP Parse error:  syntax error, unexpected 'default' (T_DEFAULT) in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\fd93d816414af0ade2156438a8d6b092.php on line 238
+[07-Dec-2016 15:44:07 PRC] PHP Parse error:  syntax error, unexpected 'default' (T_DEFAULT) in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\fd93d816414af0ade2156438a8d6b092.php on line 238
+[07-Dec-2016 15:44:16 PRC] PHP Parse error:  syntax error, unexpected ':' in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\fd93d816414af0ade2156438a8d6b092.php on line 238
+[07-Dec-2016 15:44:17 PRC] PHP Parse error:  syntax error, unexpected ':' in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\fd93d816414af0ade2156438a8d6b092.php on line 238
+[07-Dec-2016 15:44:38 PRC] PHP Parse error:  syntax error, unexpected ':' in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\fd93d816414af0ade2156438a8d6b092.php on line 238
+[07-Dec-2016 15:44:39 PRC] PHP Parse error:  syntax error, unexpected ':' in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\fd93d816414af0ade2156438a8d6b092.php on line 238
+[07-Dec-2016 15:45:14 PRC] PHP Parse error:  syntax error, unexpected ':' in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\fd93d816414af0ade2156438a8d6b092.php on line 238
+[07-Dec-2016 15:46:09 PRC] PHP Parse error:  syntax error, unexpected ':' in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\fd93d816414af0ade2156438a8d6b092.php on line 238
+[07-Dec-2016 16:01:03 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 16:01:14 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 16:01:15 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 16:02:03 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 16:02:13 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 16:02:38 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 16:02:48 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 16:04:57 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 16:06:54 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 16:06:55 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 16:08:21 PRC] PHP Fatal error:  Unsupported operand types in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Common\Page.class.php on line 92
+[07-Dec-2016 16:10:51 PRC] PHP Fatal error:  Call to a member function assign() on boolean in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Controller\QuestionController.class.php on line 73

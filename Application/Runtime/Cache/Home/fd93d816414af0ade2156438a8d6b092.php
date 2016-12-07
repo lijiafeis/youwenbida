@@ -179,18 +179,16 @@
 	<div class="container category">
 		<div class="row">
 			<div class="col-sm-12">
-				<{foreach $cat_list as $row}>
-				<dl>
+				<?php if(is_array($cat_list)): $i = 0; $__LIST__ = $cat_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$row): $mod = ($i % 2 );++$i;?><dl>
 					<dt>
-						<img alt="默认分类" src="/MVC3/application/public/static/thumb/<<?php echo ($row['cat_logo']); ?>>"></dt>
+						<img alt="默认分类" src="/phpStorm/youwenbida/Public/upload/<?php echo ($row['cat_logo']); ?>"></dt>
 					<dd>
 						<p class="title">
-							<a href="category.html"><<?php echo ($row['cat_name']); ?>></a>
+							<a href="category.html"><?php echo ($row['cat_name']); ?></a>
 						</p>
 						
 					</dd>
-				</dl>
-				<{/foreach}>
+				</dl><?php endforeach; endif; else: echo "" ;endif; ?>
 			</div>
 		</div>
 	</div>
@@ -221,21 +219,38 @@
 						</h2>
 					</ul>
 					<!-- end tab切换 -->
-
 					<div class="aw-mod aw-explore-list">
 						<div class="mod-body">
 							<div class="aw-common-list" id = 'page_content'>
+								<?php if(is_array($que_list)): $i = 0; $__LIST__ = $que_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$row): $mod = ($i % 2 );++$i;?><div data-topic-id="" class="aw-item active">
+									<a rel="nofollow" href="people.html" data-id="1" class="aw-user-name hidden-xs">
+										<img alt="" src="/phpStorm/youwenbida/Public/Home/common/avatar-max-img.png"/></a>
+									<div class="aw-question-content">
+										<h4>
+											<a href="#"><?php echo ($row['question_title']); ?></a>
+										</h4>
+										<a class="pull-right text-color-999" href="answer.html">回复</a>
 
+										<p>
+											<a href="category.html" class="aw-question-tags"><?php echo ($row['cat_name']); ?></a>
+											•
+											<a class="aw-user-name" href="people.html">itbull</a>
+											<span class="text-color-999"><?php echo ($row['username']); ?>发起了问题 • <?php echo ($row['focus_count']); ?>人关注 • <?php echo ($row['reply_count']); ?> 个回复 • <?php echo ($row['view_count']); ?> 次浏览 • <?php echo (date('%Y-%m-%d %H:%M:%S',$row['pub_time'])); ?></span>
+											<span class="text-color-999 related-topic hide">• 来自相关话题</span>
+										</p>
+
+									</div>
+								</div><?php endforeach; endif; else: echo "" ;endif; ?>>
 							</div>
 						</div>
 						<div class="mod-footer">
 							<div class="page-control" id = 'page_bar'>
-								<!-- <<?php echo ($page_html); ?>> -->
-
+								<!-- <?php echo ($page_html); ?> -->
 							</div>
 						</div>
 					</div>
 				</div>
+
 
 				<!-- 侧边栏 -->
 				<div class="col-sm-12 col-md-3 aw-side-bar hidden-xs hidden-sm">
@@ -245,27 +260,27 @@
 							<h3>热门话题</h3>
 						</div>
 						<div class="mod-body">
-							<{foreach $hot_topic as $row}>
+							{foreach $hot_topic as $row}
 							<dl>
 								<dt class="pull-left aw-border-radius-5">
 									<a href="topic.html">
-										<img src="<{PUBLIC_HOME}>common/topic-mid-img.png" alt=""></a>
+										<img src="/phpStorm/youwenbida/Public/Home/common/topic-mid-img.png" alt=""></a>
 								</dt>
 								<dd class="pull-left">
 									<p class="clearfix">
 										<span class="topic-tag">
-											<a data-id="3" class="text" href="#"><<?php echo ($row['topic_title']); ?>></a>
+											<a data-id="3" class="text" href="#"><?php echo ($row['topic_title']); ?></a>
 										</span>
 									</p>
 									<p>
-										<b><<?php echo ($row['num']); ?>></b>
+										<b><?php echo ($row['num']); ?></b>
 										个问题,
 										<b>1</b>
 										人关注
 									</p>
 								</dd>
 							</dl>
-							<{/foreach}>
+							{/foreach}
 						</div>
 					</div>
 					<div class="aw-mod aw-text-align-justify">
@@ -274,24 +289,24 @@
 							<h3>热门用户</h3>
 						</div>
 						<div class="mod-body">
-							<{foreach $hot_user as $row}>
+							{foreach $hot_user as $row}
 							<dl>
 								<dt class="pull-left aw-border-radius-5">
 									<a href="people.html">
-										<img src="<{PUBLIC_HOME}>common/avatar-mid-img.png" alt=""></a>
+										<img src="/phpStorm/youwenbida/Public/Home/common/avatar-mid-img.png" alt=""></a>
 								</dt>
 								<dd class="pull-left">
-									<a class="aw-user-name" data-id="2" href="people.html"><<?php echo ($row['username']); ?>></a>
+									<a class="aw-user-name" data-id="2" href="people.html"><?php echo ($row['username']); ?></a>
 									<p class="signature"></p>
 									<p>
-										<b><<?php echo ($row['q_num']); ?>></b>
+										<b><?php echo ($row['q_num']); ?></b>
 										个问题,
 										<b>0</b>
 										次赞同
 									</p>
 								</dd>
 							</dl>
-							<{/foreach}>
+							{/foreach}
 						</div>
 					</div>
 				</div>
@@ -307,20 +322,23 @@ function getLocalTime(nS) {
 }           
 </script>    
 <script type="text/javascript">
-	goPage(1);
+//	goPage(1);
 	function goPage(page){
+//		alert('a');
 		$$.request({
 			mothed:'post',
-			url:'<{framework\core\Factory::U("home/question/getAjaxQuestion")}>',
+			url:"<?php echo U('Home/Question/getAjaxQuestion');?>",
 			data:'page=' + page,
 			dataType:'text',
 			callback:function(res){
+
 				if(res.status == 1){
 					var page_content = document.getElementById('page_content');
 					var questions = res.questiones;
+					console.log(questions);
 					var str = '';
 					for(var i = 0; i < questions.length; i++){
-						str += '<div data-topic-id="2," class="aw-item active"><a rel="nofollow" href="people.html" data-id="1" class="aw-user-name hidden-xs"><img alt="" src="<{PUBLIC_HOME}>common/avatar-max-img.png"></a><div class="aw-question-content"><h4><a href="<{STATIC_PATH}>'+(questions[i].static_url)+'">'+(questions[i].question_title)+'</a></h4><a class="pull-right text-color-999" href="answer.html">回复</a><p><a href="category.html" class="aw-question-tags">'+(questions[i].cat_name)+'</a>•<a class="aw-user-name" href="people.html">'+(questions[i].username)+'</a><span class="text-color-999">发起了问题 • '+(questions[i].focus_count?questions[i].focus_count:1)+' 人关注 • '+(questions[i].reply_count?questions[i].reply_count:1)+' 个回复 •'+(questions[i].view_count?questions[i].view_count:1)+' 次浏览 • '+(getLocalTime(questions[i].pub_time))+'</span><span class="text-color-999 related-topic hide">• 来自相关话题</span></p></div></div>';
+						str += '<div data-topic-id="2," class="aw-item active"><a rel="nofollow" href="people.html" data-id="1" class="aw-user-name hidden-xs"><img alt="" src="/phpStorm/youwenbida/Public/Home/common/avatar-max-img.png"></a><div class="aw-question-content"><h4><a href="{STATIC_PATH}'+(questions[i].static_url)+'">'+(questions[i].question_title)+'</a></h4><a class="pull-right text-color-999" href="answer.html">回复</a><p><a href="category.html" class="aw-question-tags">'+(questions[i].cat_name)+'</a>•<a class="aw-user-name" href="people.html">'+(questions[i].username)+'</a><span class="text-color-999">发起了问题 • '+(questions[i].focus_count?questions[i].focus_count:1)+' 人关注 • '+(questions[i].reply_count?questions[i].reply_count:1)+' 个回复 •'+(questions[i].view_count?questions[i].view_count:1)+' 次浏览 • '+(getLocalTime(questions[i].pub_time))+'</span><span class="text-color-999 related-topic hide">• 来自相关话题</span></p></div></div>';
 					}
 					page_content.innerHTML = str;
 					document.getElementById('page_bar').innerHTML = res.pageBar;
