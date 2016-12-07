@@ -338,3 +338,216 @@ NOTIC: D方法实例化没找到模型类Home\Model\Model\QuestionModel
 NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
 NOTIC: D方法实例化没找到模型类Home\Model\Model\QuestionModel
 
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ecss/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ecss/default/link.css?v=20151125
+ERR: 非法操作:css
+
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ecss/icon.css
+ERR: 非法操作:css
+
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ejs/plug_module/style.css?v=20151125
+ERR: 非法操作:js
+
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ejs/jquery.2.js?v=20151125
+ERR: 非法操作:js
+
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ecss/default/common.css?v=20151125
+ERR: 非法操作:css
+
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ejs/jquery.form.js?v=20151125
+ERR: 非法操作:js
+
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ejs/plug_module/plug-in_module.js?v=20151125
+ERR: 非法操作:js
+
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ejs/aws.js?v=20151125
+ERR: 非法操作:js
+
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ejs/aw_template.js?v=20151125
+ERR: 非法操作:js
+
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ejs/common.js
+ERR: 非法操作:js
+
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ejs/compatibility.js
+ERR: 非法操作:js
+
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ecss/default/register.css?v=20151125
+ERR: 非法操作:css
+
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ejs/jquery.2.js?v=20151125
+ERR: 非法操作:js
+
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7Bframework/core/Factory::U('home/User/makeCap')%7D%3E
+ERR: 非法操作:
+
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ejs/jquery.form.js?v=20151125
+ERR: 非法操作:js
+
+[ 2016-12-07T16:54:05+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ejs/plug_module/plug-in_module.js?v=20151125
+ERR: 非法操作:js
+
+[ 2016-12-07T16:54:06+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ejs/aws.js?v=20151125
+ERR: 非法操作:js
+
+[ 2016-12-07T16:54:06+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ejs/aw_template.js?v=20151125
+ERR: 非法操作:js
+
+[ 2016-12-07T16:54:06+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ejs/compatibility.js
+ERR: 非法操作:js
+
+[ 2016-12-07T16:54:06+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BPUBLIC_HOME%7D%3Ejs/common.js
+ERR: 非法操作:js
+
+[ 2016-12-07T16:54:06+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7Bframework/core/Factory::U('home/User/makeCap')%7D%3E
+ERR: 非法操作:
+
+[ 2016-12-07T16:54:50+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7Bframework/core/Factory::U('home/User/makeCap')%7D%3E
+ERR: 非法操作:
+
+[ 2016-12-07T17:05:29+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=lijiafei&0.6476655014184687
+ERR: 非法操作:
+
+[ 2016-12-07T17:05:29+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=lijiafe&0.5535887392966872
+ERR: 非法操作:
+
+[ 2016-12-07T17:05:29+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=lijiafei&0.4111940190707406
+ERR: 非法操作:
+
+[ 2016-12-07T17:05:29+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=lijiafei&0.9989972096314725
+ERR: 非法操作:
+
+[ 2016-12-07T17:05:30+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=lijiafeisad&0.3905134475871628
+ERR: 非法操作:
+
+[ 2016-12-07T17:05:30+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=lijiafeisad&0.7807641748514953
+ERR: 非法操作:
+
+[ 2016-12-07T17:05:30+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=lijiafeisad&0.8292102125862995
+ERR: 非法操作:
+
+[ 2016-12-07T17:05:31+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=lijiafeisadf&0.0141204543776694
+ERR: 非法操作:
+
+[ 2016-12-07T17:05:32+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=lijiafeisadfs&0.9017433184779415
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:41+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsa&0.6759299017281217
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:41+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsa&0.26984441808168613
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:41+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsaf&0.17549257834484444
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:41+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsaf&0.7785777917699324
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdas&0.30367950319263604
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdas&0.829089410304418
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdas&0.5402526915650423
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasf&0.3196262866451125
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasfads&0.9688700631214269
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasfads&0.2944665442566028
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasfads&0.5387299471713041
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasfads&0.20487392427014783
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasfadsfsda&0.714254623265554
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasfadsfsda&0.9705776639087689
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasfadsfsdaf&0.6686922949292051
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasfadsfsdaf&0.31514464303142176
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasfadsfsdafdsa&0.974276399599832
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasfadsfsdafdsa&0.7451935027746872
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasfadsfsdafdsa&0.11414497785110655
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasfadsfsdafdsaf&0.9208660402205018
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasfadsfsdafdsafasd&0.019638222001666872
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasfadsfsdafdsafasd&0.2777780110328725
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasfadsfsdafdsafasd&0.6137737225045294
+ERR: 非法操作:
+
+[ 2016-12-07T17:06:42+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/%3C%7BframeworkcoreFactory::U(%22home/user/yzUser%22)%7D%3E?user=sdafsfdsafdasfadsfsdafdsafasd&0.8925958008477557
+ERR: 非法操作:
+
+[ 2016-12-07T17:11:47+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/vaildata.html?user=lijiafe&0.08146363345073127
+ERR: 非法操作:vaildata
+
+[ 2016-12-07T17:11:47+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/vaildata.html?user=lijiafe&0.13526360623949585
+ERR: 非法操作:vaildata
+
+[ 2016-12-07T17:11:47+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/vaildata.html?user=lijiafei&0.30173912486682486
+ERR: 非法操作:vaildata
+
+[ 2016-12-07T17:11:47+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/vaildata.html?user=lijiafei&0.2690708740416934
+ERR: 非法操作:vaildata
+
+[ 2016-12-07T17:11:48+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/vaildata.html?user=lijiafeil&0.890061986329926
+ERR: 非法操作:vaildata
+
+[ 2016-12-07T17:11:48+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/vaildata.html?user=lijiafeili&0.8955751949174902
+ERR: 非法操作:vaildata
+
+[ 2016-12-07T17:11:48+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/vaildata.html?user=lijiafeilij&0.5839669030251742
+ERR: 非法操作:vaildata
+
+[ 2016-12-07T17:11:49+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/vaildata.html?user=lijiafeilijia&0.8567602309706468
+ERR: 非法操作:vaildata
+
+[ 2016-12-07T17:11:49+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/vaildata.html?user=lijiafeilijiafe&0.5389414718414831
+ERR: 非法操作:vaildata
+
+[ 2016-12-07T17:11:49+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/vaildata.html?user=lijiafeilijiafe&0.14121466079264344
+ERR: 非法操作:vaildata
+
+[ 2016-12-07T17:11:49+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/vaildata.html?user=lijiafeilijiafe&0.7045457546794229
+ERR: 非法操作:vaildata
+
+[ 2016-12-07T17:13:35+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/vaildata.html
+ERR: 非法操作:vaildata
+
+[ 2016-12-07T17:13:35+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/vaildata.html
+ERR: 非法操作:vaildata
+
+[ 2016-12-07T17:13:38+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/vaildata.html
+ERR: 非法操作:vaildata
+
+[ 2016-12-07T17:13:38+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/User/vaildata.html
+ERR: 非法操作:vaildata
+
