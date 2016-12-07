@@ -7,3 +7,145 @@ ERR: 无法加载控制器:Category
 [ 2016-12-07T13:09:12+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
 ERR: Think\Controller:dislplay方法不存在！
 
+[ 2016-12-07T13:19:36+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+
+[ 2016-12-07T13:19:40+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+
+[ 2016-12-07T13:22:04+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+
+[ 2016-12-07T13:23:19+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+
+[ 2016-12-07T13:23:20+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+
+[ 2016-12-07T13:27:43+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:27:44+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:27:49+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:28:28+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:28:56+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:31:57+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:32:03+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:32:08+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:32:44+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:32:45+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:32:50+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:34:16+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:37:14+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:37:15+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:37:19+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:40:39+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:40:40+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:40:44+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T13:41:02+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T14:01:51+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T14:01:52+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T14:02:45+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T14:02:46+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T14:03:12+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T14:03:12+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T14:05:06+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Category/%3C%7BframeworkcoreFactory::U(%22home/question/getAjaxQuestion%22)%7D%3E
+ERR: 非法操作:
+
+[ 2016-12-07T14:05:10+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T14:05:20+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Category/%3C%7BframeworkcoreFactory::U(%22home/question/getAjaxQuestion%22)%7D%3E
+ERR: 非法操作:
+
+[ 2016-12-07T14:05:34+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Category/%3C%7BframeworkcoreFactory::U(%22home/question/getAjaxQuestion%22)%7D%3E
+ERR: 非法操作:
+
+[ 2016-12-07T14:05:36+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T14:05:43+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Category/%3C%7BframeworkcoreFactory::U(%22home/question/getAjaxQuestion%22)%7D%3E
+ERR: 非法操作:
+
+[ 2016-12-07T14:54:03+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Question/add.html
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\CategoryModel
+NOTIC: D方法实例化没找到模型类Admin\Model\Model\TopicModel
+
+[ 2016-12-07T14:54:10+08:00 ] 127.0.0.1 /phpStorm/youwenbida/index.php/Home/Category/%3C%7BframeworkcoreFactory::U(%22home/question/getAjaxQuestion%22)%7D%3E
+ERR: 非法操作:
+

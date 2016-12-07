@@ -49,3 +49,4 @@
 [07-Dec-2016 13:09:20 PRC] PHP Parse error:  syntax error, unexpected ':' in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\b20434f0d586e5a20b6e0a890d75f07e.php on line 205
 [07-Dec-2016 13:09:39 PRC] PHP Parse error:  syntax error, unexpected ':' in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\b20434f0d586e5a20b6e0a890d75f07e.php on line 205
 [07-Dec-2016 13:09:47 PRC] PHP Parse error:  syntax error, unexpected ':' in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\b20434f0d586e5a20b6e0a890d75f07e.php on line 205
+[07-Dec-2016 13:33:45 PRC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Home\Controller\QuestionController.class.php on line 26

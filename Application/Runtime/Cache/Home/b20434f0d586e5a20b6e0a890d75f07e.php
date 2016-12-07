@@ -197,12 +197,12 @@
 								<!-- 问题标题 -->
 								<div class="aw-publish-title">
 									<div>
-										<input type="text" class="form-control" value="" id="question_contents" name="question_content" placeholder="问题标题...">
-										<select style="float:right;margin-top:-35px;height:35px;border-radius:5px" id="category_id" name="category_id">
+										<input type="text" class="form-control" value="" id="question_contents" name="question_title" placeholder="问题标题...">
+										<select style="float:right;margin-top:-35px;height:35px;border-radius:5px" id="category_id" name="cat_id">
 											<option value="0">- 顶级分类 -</option>
-												<option value="0">
-													默认
-												</option>
+											<?php if(is_array($cat_list)): $i = 0; $__LIST__ = $cat_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$row): $mod = ($i % 2 );++$i;?><option value="<?php echo ($row['cat_id']); ?>">
+														<?php echo ($row['cat_name']); ?>
+											</option><?php endforeach; endif; else: echo "" ;endif; ?>
 										</select>
 									</div>
 																		<div class="dropdown">
@@ -220,17 +220,16 @@
 								<h3>问题描述 (选填):</h3>
 								<div class="aw-mod aw-editor-box">
 									<div class="mod-head">
-										<textarea name="qusetion_desc" class="form-control" rows="10"></textarea>
+										<textarea name="question_desc" class="form-control" rows="10"></textarea>
 									</div>
 									<!-- 删除文件上传input type=file -->									
 								</div>
 								<h3>添加话题:</h3>
 								<div data-type="publish" class="aw-topic-bar active">
-									
-									<label>
-										<input type="checkbox" name="topic_id[]" value="0">
-									</label>
-
+									<?php if(is_array($top_list)): $i = 0; $__LIST__ = $top_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$row): $mod = ($i % 2 );++$i;?><label>
+										<input type="checkbox" name="topic_id[]" value="<?php echo ($row['topic_id']); ?>">
+										<?php echo ($row['topic_title']); ?>
+									</label><?php endforeach; endif; else: echo "" ;endif; ?>
 								</div>
 								
 								
