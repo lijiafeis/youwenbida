@@ -1,0 +1,158 @@
+<extend name='Common/layout'/>
+<block name="content">
+<div class="aw-container-wrap">
+	<div class="container category">
+		<div class="row">
+			<div class="col-sm-12">
+				<{foreach $cat_list as $row}>
+				<dl>
+					<dt>
+						<img alt="默认分类" src="/MVC3/application/public/static/thumb/<{$row['cat_logo']}>"></dt>
+					<dd>
+						<p class="title">
+							<a href="category.html"><{$row['cat_name']}></a>
+						</p>
+						
+					</dd>
+				</dl>
+				<{/foreach}>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="aw-content-wrap clearfix">
+				<div class="col-sm-12 col-md-9 aw-main-content">
+					<!-- end 新消息通知 -->
+					<!-- tab切换 -->
+					<ul class="nav nav-tabs aw-nav-tabs active hidden-xs">
+						<li>
+							<a href="">等待回复</a>
+						</li>
+						<li>
+							<a id="sort_control_hot" href="">热门</a>
+						</li>
+						<li>
+							<a href="">推荐</a>
+						</li>
+						<li class="active">
+							<a href="">最新</a>
+						</li>
+
+						<h2 class="hidden-xs">
+							<i class="icon icon-list"></i>
+							发现
+						</h2>
+					</ul>
+					<!-- end tab切换 -->
+
+					<div class="aw-mod aw-explore-list">
+						<div class="mod-body">
+							<div class="aw-common-list" id = 'page_content'>
+
+							</div>
+						</div>
+						<div class="mod-footer">
+							<div class="page-control" id = 'page_bar'>
+								<!-- <{$page_html}> -->
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- 侧边栏 -->
+				<div class="col-sm-12 col-md-3 aw-side-bar hidden-xs hidden-sm">
+					<div class="aw-mod aw-text-align-justify">
+						<div class="mod-head">
+							<a class="pull-right" href="topic_index.html">更多 &gt;</a>
+							<h3>热门话题</h3>
+						</div>
+						<div class="mod-body">
+							<{foreach $hot_topic as $row}>
+							<dl>
+								<dt class="pull-left aw-border-radius-5">
+									<a href="topic.html">
+										<img src="<{PUBLIC_HOME}>common/topic-mid-img.png" alt=""></a>
+								</dt>
+								<dd class="pull-left">
+									<p class="clearfix">
+										<span class="topic-tag">
+											<a data-id="3" class="text" href="#"><{$row['topic_title']}></a>
+										</span>
+									</p>
+									<p>
+										<b><{$row['num']}></b>
+										个问题,
+										<b>1</b>
+										人关注
+									</p>
+								</dd>
+							</dl>
+							<{/foreach}>
+						</div>
+					</div>
+					<div class="aw-mod aw-text-align-justify">
+						<div class="mod-head">
+							<a class="pull-right" href="?/people/">更多 &gt;</a>
+							<h3>热门用户</h3>
+						</div>
+						<div class="mod-body">
+							<{foreach $hot_user as $row}>
+							<dl>
+								<dt class="pull-left aw-border-radius-5">
+									<a href="people.html">
+										<img src="<{PUBLIC_HOME}>common/avatar-mid-img.png" alt=""></a>
+								</dt>
+								<dd class="pull-left">
+									<a class="aw-user-name" data-id="2" href="people.html"><{$row['username']}></a>
+									<p class="signature"></p>
+									<p>
+										<b><{$row['q_num']}></b>
+										个问题,
+										<b>0</b>
+										次赞同
+									</p>
+								</dd>
+							</dl>
+							<{/foreach}>
+						</div>
+					</div>
+				</div>
+				<!-- end 侧边栏 -->
+			</div>
+		</div>
+	</div>
+</div>
+<script>       
+function getLocalTime(nS) {    
+	//1秒==1000毫秒   
+   return new Date(parseInt(nS) * 1000).toLocaleString().replace(/年|月/g, "-").replace(/日/g, " ");        
+}           
+</script>    
+<script type="text/javascript">
+	goPage(1);
+	function goPage(page){
+		$$.request({
+			mothed:'post',
+			url:'<{framework\core\Factory::U("home/question/getAjaxQuestion")}>',
+			data:'page=' + page,
+			dataType:'text',
+			callback:function(res){
+				if(res.status == 1){
+					var page_content = document.getElementById('page_content');
+					var questions = res.questiones;
+					var str = '';
+					for(var i = 0; i < questions.length; i++){
+						str += '<div data-topic-id="2," class="aw-item active"><a rel="nofollow" href="people.html" data-id="1" class="aw-user-name hidden-xs"><img alt="" src="<{PUBLIC_HOME}>common/avatar-max-img.png"></a><div class="aw-question-content"><h4><a href="<{STATIC_PATH}>'+(questions[i].static_url)+'">'+(questions[i].question_title)+'</a></h4><a class="pull-right text-color-999" href="answer.html">回复</a><p><a href="category.html" class="aw-question-tags">'+(questions[i].cat_name)+'</a>•<a class="aw-user-name" href="people.html">'+(questions[i].username)+'</a><span class="text-color-999">发起了问题 • '+(questions[i].focus_count?questions[i].focus_count:1)+' 人关注 • '+(questions[i].reply_count?questions[i].reply_count:1)+' 个回复 •'+(questions[i].view_count?questions[i].view_count:1)+' 次浏览 • '+(getLocalTime(questions[i].pub_time))+'</span><span class="text-color-999 related-topic hide">• 来自相关话题</span></p></div></div>';
+					}
+					page_content.innerHTML = str;
+					document.getElementById('page_bar').innerHTML = res.pageBar;
+				}
+			}
+		});
+	}
+
+</script>
+</block>

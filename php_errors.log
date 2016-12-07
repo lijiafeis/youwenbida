@@ -44,3 +44,8 @@
 [04-Dec-2016 15:37:18 PRC] PHP Parse error:  syntax error, unexpected 'default' (T_DEFAULT) in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Admin\53c7dfdcc1f02a0627bb3774a73a4ec6.php on line 214
 [04-Dec-2016 15:52:36 PRC] PHP Parse error:  syntax error, unexpected 'default' (T_DEFAULT) in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Admin\53c7dfdcc1f02a0627bb3774a73a4ec6.php on line 214
 [04-Dec-2016 16:23:06 PRC] PHP Parse error:  syntax error, unexpected 'default' (T_DEFAULT) in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Admin\53c7dfdcc1f02a0627bb3774a73a4ec6.php on line 214
+[07-Dec-2016 13:01:52 PRC] PHP Parse error:  syntax error, unexpected 'default' (T_DEFAULT) in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\fd93d816414af0ade2156438a8d6b092.php on line 241
+[07-Dec-2016 13:03:42 PRC] PHP Parse error:  syntax error, unexpected ':' in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\fd93d816414af0ade2156438a8d6b092.php on line 247
+[07-Dec-2016 13:09:20 PRC] PHP Parse error:  syntax error, unexpected ':' in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\b20434f0d586e5a20b6e0a890d75f07e.php on line 205
+[07-Dec-2016 13:09:39 PRC] PHP Parse error:  syntax error, unexpected ':' in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\b20434f0d586e5a20b6e0a890d75f07e.php on line 205
+[07-Dec-2016 13:09:47 PRC] PHP Parse error:  syntax error, unexpected ':' in D:\mywamp\Apache24\htdocs\phpStorm\youwenbida\Application\Runtime\Cache\Home\b20434f0d586e5a20b6e0a890d75f07e.php on line 205
